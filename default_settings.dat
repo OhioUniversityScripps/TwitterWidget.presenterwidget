@@ -1,0 +1,11 @@
+sedna_config = {
+	"Height"      	   : "800",
+  "Width"            : "530",
+	"Refresh"          : "30",
+  "WidgetURL"        : "https://twitter.com/twitterapi",
+  "WidgetID"         : "482577534068858880",
+  "WidgetTheme"      : "light",
+  "WidgetLinkColor"  : "",
+	"WidgetUsernames"  : "rickychilcott",
+  "LinkText"         : "Tweets for #OUHSMW",
+}
