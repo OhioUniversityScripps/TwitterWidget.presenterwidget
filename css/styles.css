@@ -1,55 +1,46 @@
-body{background:transparent;font-family:"Helvetica",Arial,sans-serif;font-size:14px;line-height:18px;}   
-
-strong{font-weight:bold;}
-u{font-size:12px;line-height:20px;color:rgba(0,0,0,.5);text-decoration:none;}
-.left{float:left;}
-.right{float:right;} 
-
-a{
-	color:rgb(90,140,195);
+body {
+  background: transparent;
 }
 
-h2 {   
-	position:relative;
-	font-size: 32px;
-	font-weight: bold;
-	line-height: 32px;
-	color:rgba(205,205,205,1);   
-	text-shadow:0 1px 0 rgba(255,255,255,1);
-} 
+h2 {
+  position: relative;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 32px;
+  color: rgba(205,205,205,1);
+  text-shadow: 0 1px 0 rgba(255,255,255,1);
+}
 
-h2:after{
-	content:"Twitter";    
-	position:absolute;
-	top:0;
-	left:0;           
-	color:rgba(0,0,0,.75);
-	-webkit-mask-image: -webkit-linear-gradient(top, rgba(0,0,0,.5) 0%, rgba(0,0,0,0) 100%);
-	-moz-mask-image: -moz-linear-gradient(top, rgba(0,0,0,.5) 0%, rgba(0,0,0,0) 100%);
-	-ms-mask-image: -ms-linear-gradient(top, rgba(0,0,0,.5) 0%, rgba(0,0,0,0) 100%); 
-	-o-mask-image: -o-linear-gradient(top, rgba(0,0,0,.5) 0%, rgba(0,0,0,0) 100%); 
-}      
-
-section{}  
+h2:after {
+  content: "Twitter";
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: rgba(0,0,0,.75);
+  -webkit-mask-image: -webkit-linear-gradient(top, rgba(0,0,0,.5) 0%, rgba(0,0,0,0) 100%);
+  -moz-mask-image: -moz-linear-gradient(top, rgba(0,0,0,.5) 0%, rgba(0,0,0,0) 100%);
+  -ms-mask-image: -ms-linear-gradient(top, rgba(0,0,0,.5) 0%, rgba(0,0,0,0) 100%);
+  -o-mask-image: -o-linear-gradient(top, rgba(0,0,0,.5) 0%, rgba(0,0,0,0) 100%);
+}
 	
-header,footer{ 
-	min-height:20px;
-	width:496px;
-	padding:6px 12px;
-	background: -webkit-linear-gradient(top,  rgba(245,245,245,1) 0%,rgba(225,225,225,1) 100%);
-}  
-
-header{
-	border:1px solid rgba(0,0,0,.25);
+header,footer {
+  min-height: 20px;
+  width: 496px;
+  padding: 6px 12px;
+  background: -webkit-linear-gradient(top,  rgba(245,245,245,1) 0%,rgba(225,225,225,1) 100%);
 }
 
-footer{ 
-	height:32px;
-	background: -webkit-linear-gradient(top,  rgba(225,225,225,1) 0%,rgba(245,245,245,1) 100%);
-	border:1px solid rgba(0,0,0,.25); 
-	border-top:1px solid rgba(255,255,255,.5); 
+header {
+  border: 1px solid rgba(0,0,0,.25);
 }
 
-.timeline-footer{
+footer {
+  height: 32px;
+  background: -webkit-linear-gradient(top,  rgba(225,225,225,1) 0%,rgba(245,245,245,1) 100%);
+  border: 1px solid rgba(0,0,0,.25);
+  border-top: 1px solid rgba(255,255,255,.5);
+}
+
+.timeline-footer {
   visibility: collapse;
 }
