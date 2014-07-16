@@ -1,7 +1,7 @@
 sedna_config = {
 	"Height"      	   : "800",
   "Width"            : "530",
-	"Refresh"          : "30",
+	"Refresh"          : "300",
   "WidgetURL"        : "https://twitter.com/twitterapi",
   "WidgetID"         : "twitter_widget_id",
   "WidgetTheme"      : {
