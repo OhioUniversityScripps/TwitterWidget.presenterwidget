@@ -44,3 +44,9 @@ footer {
 .timeline-footer {
   visibility: collapse;
 }
+
+/* Hide Horizontal/Vertical scrollbars */
+iframe {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
